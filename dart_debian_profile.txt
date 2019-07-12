@@ -1,0 +1,9 @@
+# dart
+export PATH="$PATH":"/usr/lib/dart/bin/"
+
+# flutter
+export PATH="$PATH":"$HOME/linspace/flutter/bin/"
+
+# flutter webdev
+export PATH="$PATH":"$HOME/.bin/cache/dart-sdk/bin"
+export PATH="$PATH":"$HOME/.pub-cache/bin"
