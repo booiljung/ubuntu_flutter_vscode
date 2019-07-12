@@ -11,13 +11,13 @@
 저는 `~/linspace`라는 linux workspace 폴더에서 개발 작업을 합니다. 별도의 폴더 이름을 사용하는 경우 아래 스크립트에서 `linspace`를 사용하시는 폴더 이름으로 변경 하시면 됩니다.
 
 ```sh
-$ cd ~						# 홈디렉토리
-$ mkdir linspace			# 개발 작업용 폴더 생성 유저마다 다를 것입니다.
+$ cd ~						        # 홈디렉토리
+$ mkdir linspace			    # 개발 작업용 폴더 생성. 유저마다 다를 것입니다.
 $ cd linspace
 $ sudo apt install git		# git 설치 및 스크립트 클론
 $ git clone https://github.com/booiljung/ubuntu_flutter_vscode.git
 $ cd ubuntu_flutter_vscode
-$ sh install.sh				# 설치 스크립트 실행
+$ sh install.sh				    # 설치 스크립트 실행
 ```
 
 자세한 설명은 [이 게시물](https://booiljung.github.io/technical_articles/flutter/ubuntu_flutter_vscode_quick.html)에 정리되어 있습니다.
