@@ -1,0 +1,2 @@
+# android studio
+export PATH="$PATH":"/opt/android-studio/bin/"
